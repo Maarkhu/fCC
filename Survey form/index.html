@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form - fCC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve our services</p>
+    </header>
+    <main>
+        <form action="" id="survey-form">
+            <div class="form-all">
+                <label id="name-label" for="name">Your full name:
+                    <input id="name" placeholder="Enter your name" type="name" required></div>
+            </label>
+            <div class="form-all">
+                <label id="email-label" for="email">Please write your e-mail:
+                    <input id="email" placeholder="Enter your email" type="email" required>
+                </label>
+            </div>
+            <div class="form-all">
+                <label id="number-label" class="form-all" for="number">What is your age?
+                    <input id="number" placeholder="Your age" type="number" min="10" max="101" required>
+                </label>
+            </div>
+            <div class="form-all">
+                <label for="websites">Which of our services would convince you to choose our company?
+                    <select name="websites" id="dropdown">
+                        <option Positioning of websites value="Positioning of websites">Website positioning</option>
+                        <option value="Creating new website">Creating a new website</option>
+                        <option value="Website update services">Website update services</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-all">
+                <p style="margin: 0px auto;">Would you use our services again?</p>
+                <label class="radio">
+                    <label>Definitely</label><input type="radio" value="definitely" name="recommendation" checked>
+                    <label>Maybe</label><input type="radio" value="maybe" name="recommendation">
+                    <label>Not sure</label><input type="radio" value="not sure" name="recommendation">
+                </label>
+            </div>
+            <div class="form-all">
+                <p style="margin: 0px auto;">Which of our services would you like to use?</p>
+                <label>Website positioning</label><input type="checkbox" value="definitely" name="recommendation">
+                <label>Creating a new website</label><input type="checkbox" value="definitely" name="recommendation">
+                <label>Website update services</label><input type="checkbox" value="definitely" name="recommendation">
+            </div>
+            <div>
+                <label id="text-label">
+                    <p>
+                        Please share your comments with us:
+                    </p>
+                    <textarea id="t-box" name="message" style="height: 200px" placeholder="Type your text here">
+                    </textarea>
+            </div>
+            </label>
+            <div>
+                <button id="submit" type="submit" onclick="alert('Hello. Thanks')"> Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

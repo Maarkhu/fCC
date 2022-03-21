@@ -1,0 +1,39 @@
+html {
+    font-family: Roboto, Verdana, serif;
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/26/10/58/norway-4970080_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#title {
+    color: grey;
+}
+
+#description {
+    color: grey;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+h1,
+p,
+#survey-form,
+#t-box {
+    display: block;
+    width: 60%;
+    text-align: center;
+    background-color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.8
+}
+
+#number {
+    width: 80px;
+}
+
+.form-all {
+    padding: 20px;
+}
